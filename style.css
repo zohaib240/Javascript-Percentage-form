@@ -4,6 +4,14 @@ body{
     box-sizing: border-box;
     background-color: #ee7a0d;
 }
+.head{
+    background-color: #ee7a0d;
+    color: #1a0808;
+}
+h1:hover{
+    background-color: aliceblue;
+    box-shadow: #f88e04 5px 5px 5px 5px ;
+}
 
 .forma{
    background-color: #000000;
@@ -28,16 +36,23 @@ input:hover{
     box-shadow: #faebd7 5px 5px 5px 5px ;
 }
 button{
-    height: 40px;
-    width: 20%;
-    border-radius: 45%;
+    border-radius: 3rem;
+    color: rgb(17, 16, 15);
+    background-color:#ee7a0d ;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-style: italic;
+    border-color: black;
+    
 
 }
 button:hover{
-    background-color: #e91109;
+    color: #1a0808;
     box-shadow: #d8d2d2 3px 3px 2px 2px;
-    border-radius: 45%;
+    border-radius: 4rem ;
     animation: infinite;
+
 
 
 }
